@@ -4,6 +4,7 @@ import ListPacientes from '@/views/ListPacientes.vue'
 import AddPacientes from '@/views/AddPacientes.vue'
 import EditPacientes from '@/views/EditPacientes.vue'
 import ViewPacientes from '@/views/ViewPacientes.vue'
+import ImportPacientes from "@/views/ImportPacientes.vue"
 
 Vue.use(Router)
 
@@ -18,6 +19,11 @@ export default new Router({
             path: '/add/',
             name: 'AddPacientes',
             component: AddPacientes
+        },
+        {
+            path: '/import/',
+            name: 'ImportPacientes',
+            component: ImportPacientes
         },
         {
             path: '/edit/:pacienteId',
