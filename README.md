@@ -1,24 +1,12 @@
-# pacientes-front
+# Aplicação Front de Pacientes
 
-## Project setup
-```
-npm install
-```
+## Funcionalidades:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- CRUD de Pacientes.
+- Importação de Pacientes.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Instalação:
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Clone o projeto
+2. npm install
+3. npm run serve
